@@ -1,0 +1,5 @@
+// Waybar starter: nothing but a clock. Your layout goes here.
+{
+  "layer": "top",
+  "modules-right": ["clock"]
+}

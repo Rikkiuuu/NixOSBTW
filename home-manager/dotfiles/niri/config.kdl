@@ -1,0 +1,5 @@
+// Minimal starter so the session is usable. Replace everything with your own.
+binds {
+    Mod+Return { spawn "kitty"; }
+    Mod+Shift+E { quit; }
+}
