@@ -57,8 +57,8 @@
   programs.zsh.enable = true;
 
   xdg.configFile."kitty/kitty.conf".source = ./dotfiles/kitty/kitty.conf;
-  xdg.configFile."hypr/hyprland.lua".source = ./dotfiles/hypr/hyprland.lua;
-  xdg.configFile."niri/config.kdl".source = ./dotfiles/niri/config.kdl;
+  xdg.configFile."hypr".source = ./dotfiles/hypr;
+  xdg.configFile."niri".source = ./dotfiles/niri;
   xdg.configFile."waybar/config.jsonc".source = ./dotfiles/waybar/config.jsonc;
   # Add more the same way, e.g.:
   # xdg.configFile."mako/config".source = ./dotfiles/mako/config;
